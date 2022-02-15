@@ -12,7 +12,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-
 h1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -27,7 +26,6 @@ h1 {
 span {
   color: #36b37f;
 }
-
 
 header {
   padding: 0 35px;
@@ -61,7 +59,7 @@ header {
 .section1 p {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 28px;
   margin: 2em 24px;
   text-align: center;
@@ -80,7 +78,7 @@ li {
   margin: 0 8px;
 }
 
-btn {
+.btn {
   padding: 0;
   margin-top: 3em;
   background: none;
