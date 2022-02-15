@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@https://github.com/ibrahim777764](https://https://github.com/ibrahim777764)
+- GitHub: (https://https://github.com/ibrahim777764)
 
 ## 🤝 Contributing
 
