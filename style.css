@@ -45,11 +45,12 @@ header {
 }
 
 .section1 {
-  background: #fff url(./Group.png) no-repeat;
+  background: #fff url(./header-illsutration-mobile.svg)  no-repeat 100% 50% ;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  
 }
 
 .section1 h1:first-child {
@@ -64,6 +65,7 @@ header {
   margin: 2em 24px;
   text-align: center;
   color: #172b4d;
+  
 }
 
 .social-icon {
@@ -76,6 +78,7 @@ header {
 
 li {
   margin: 0 8px;
+  
 }
 
 .btn {
@@ -84,18 +87,19 @@ li {
   background: none;
   border: 0;
 }
-.works {
+.work {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 200px repeat(5, 5fr);
     text-align: center;
+    
   }
   
-  .works h1:first-child {
+  .work h1:first-child {
     padding: 1em;
   }
   
-  .works h1:first-child::after {
+  .work h1:first-child::after {
     content: '';
     height: 4px;
     width: 48px;
@@ -117,64 +121,102 @@ li {
     margin: 1em auto;
     width: 327px;
     border: 1px lightgrey solid;
-    border-radius: 5px;
-    height: 700px;
+   width: 327px;
+   left: 0px;
+   top: 0px;
+   border-radius: 8px;
+
+    
   }
   
-  .card-tags,
-  .categorie-tags {
+  .box-tags,
+  .languages-tags {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: space-around;
   }
   
-  .card-tags li {
-    background: lightgray;
+  .box-tags li {
+    background: #EBF0EE;
     font-size: 12px;
     padding: 0.5em;
     margin: 0 0.5em;
-    border-radius: 2px;
+    border-radius: 4px;
   }
   .button {
-      
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px;
-
-margin-left: 110px;
-width: 122px;
-height: 48px;
-
-/* Theme 2 / Primary 2 */
-
-background: #36B37F;
-border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    margin-left: 100px;
+    width: 122px;
+    height: 48px;
+    background: #36B37F;
+    border-radius: 4px;
+    border-color: #d0d9d4;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+    left: calc(50% - 122px/2 + 0.5px);
+    bottom: 8px;
+    
   }
-  /* About me */
+  .button1 {
   
-  .about-myself {
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background-color: #36B37F;
+    color: rgb(255, 255, 255);
+    border-color: #d0d9d4;
+    border-radius: 4px;
+    height: 50px;
+    
+    
+   
+    
+  }
+  .button2 {
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background-color: #36B37F;
+    color: rgb(255, 255, 255);
+    border-color: #d0d9d4;
+    border-radius: 8px;
+    height: 50px;
+    
+  }
+
+  .about-me {
     margin-top: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
-    /* prettier-ignore */
-    background: url(./illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%, url(./illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
+    background: url(./illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%, url(./illustration\ 2-about\ me\ mobile.svg) no-repeat 0 200px;
     text-align: center;
     padding: 2em;
   }
   
-  .about-myself p {
+  .about-me p {
     font-size: 20px;
     color: #42526e;
   }
   
-  .categorie-about-myself {
+  .languages-about-me {
     list-style: none;
     display: flex;
     width: max-content;
@@ -184,7 +226,7 @@ border-radius: 4px;
     padding: 0;
   }
   
-  .card-categories {
+  .box-languages {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,40 +239,40 @@ border-radius: 4px;
     border-radius: 5px;
   }
   
-  .categorie-tags {
+  .languages-tags {
     display: flex;
     flex-wrap: wrap;
   }
   
-  .categorie-tags li {
+  .languages-tags li {
     background: white;
     color: #36b37f;
+    font-weight: 600;
     font-size: 12px;
     padding: 1em 0.5em;
     margin: 1em 0.5em;
-    border-radius: 5px;
+    border-radius: 8px;
+    width: 72px;
   }
   
-  .categorie-title {
+  .languages-title {
     font-size: 24px;
     color: #344563;
   }
   
-  .categorie-image {
+  .languages-image {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  /* Footer section */
-.footer-container {
+
+.footer-box {
     margin-top: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
-    /* prettier-ignore */
-    background: url(./assest/illustration-contact-form.svg) no-repeat 100% 90%;
+    background: url(ibnas.svg) no-repeat 100% 90%;
     text-align: center;
     padding: 2em 5em;
   }
