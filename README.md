@@ -13,6 +13,9 @@ build the first 2 sections of the mobile website using the template you chose in
 
 ![screenshot](./pic.png)
 
+![screenshot](./pic1.png)
+
+![screenshot](./pic2.png)
 
 ## Built With
 
