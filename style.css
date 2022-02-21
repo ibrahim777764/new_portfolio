@@ -353,6 +353,6 @@ footer::after {
   position: relative;
   top: 80px;
   z-index: -1;
-  background: #ffffff;
+  background: #172b4d;
   border-radius: 8px;
 }
