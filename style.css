@@ -39,6 +39,14 @@ h2 {
   margin-bottom: 0;
 }
 
+h4 {
+  height: 57px;
+  width: 337px;
+  left: 16px;
+  top: 16px;
+  font-size: 30px;
+}
+
 span {
   color: var(--color-primary);
 }
