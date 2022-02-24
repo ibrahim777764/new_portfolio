@@ -88,18 +88,18 @@ button:active {
   text-align: center;
 }
 
-.header-nav-desktop {
+.nav-desktop {
   display: none;
 }
 
-.header-nav-phone {
+.nav-phone {
   padding: 0 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header-nav-mobile {
+.nav-mobile {
   position: absolute;
   top: 0%;
   right: 0%;
@@ -114,21 +114,21 @@ button:active {
 }
 
 .menu-btn,
-.header-nav-mobile > button {
+.nav-mobile > button {
   background-color: white;
 }
 
-.header-nav-mobile > button {
+.nav-mobile > button {
   margin: 0.5em 0.5em;
   align-self: flex-end;
   cursor: pointer;
 }
 
-.header-nav-mobile > img {
+.nav-mobile > img {
   width: 2em;
 }
 
-.header-nav-mobile > ul > li {
+.nav-mobile > ul > li {
   margin-left: 28px;
   margin-top: 40px;
   font-size: 24px;
@@ -136,7 +136,7 @@ button:active {
   cursor: pointer;
 }
 
-.header-nav-mobile > ul > li > a {
+.nav-mobile > ul > li > a {
   font-size: 24px;
   font-weight: 600;
   color: #3a4a42;
@@ -153,7 +153,7 @@ button:active {
   display: none;
 }
 
-.header-nav-mobile.hidden {
+.nav-mobile.hidden {
   display: none;
 }
 
@@ -208,7 +208,7 @@ button:active {
     padding-top: 3em;
   }
 
-  .header-nav-desktop {
+  .nav-desktop {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -218,7 +218,7 @@ button:active {
     margin: 0;
   }
 
-  .header-nav-desktop li {
+  .nav-desktop li {
     list-style: none;
     padding: 0;
     margin: 1em;
