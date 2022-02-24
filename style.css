@@ -217,7 +217,7 @@ button:active {
 }
 
 @media (min-width: 992px) {
-  .header-nav-phone {
+  .nav-phone {
     display: none;
   }
 
@@ -508,9 +508,10 @@ button:active {
 
 .about-myself {
   margin-top: 2em;
-  background: url(acd.svg) no-repeat 100% 0%, url(./assest/illustration_2-about_me_mobile.svg) no-repeat 0 300px;
+  background: url(ac.svg) no-repeat 100% 0%, url(./assest/istration_2-about_me_mobile.svg) no-repeat 0 300px;
   text-align: center;
   padding: 2em;
+  
 }
 
 .about-myself p {
@@ -576,7 +577,7 @@ button:active {
 
 @media (min-width: 1024px) {
   .about-myself {
-    background: url(left.svg) no-repeat 0% 20%, url(right.svg) no-repeat 100% 0%;
+    background: url(right.svg) no-repeat 100% 0%, url(left.svg) no-repeat 0 300px;
   }
 }
 
