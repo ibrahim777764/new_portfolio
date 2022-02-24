@@ -74,7 +74,7 @@ button:active {
   background: #008552;
 }
 
-/* Sections */
+
 .container {
   width: 90%;
   max-width: 900px;
@@ -241,7 +241,7 @@ button:active {
   }
 }
 
-/* Card works group */
+
 .Recent {
   display: grid;
   grid-template-columns: 1fr;
@@ -491,12 +491,12 @@ button:active {
   }
 }
 
-/* About me */
+
 
 .about-myself {
   margin-top: 2em;
 
-  /* prettier-ignore */
+ 
   background: url(acd.svg) no-repeat 100% 0%, url(./assest/illustration_2-about_me_mobile.svg) no-repeat 0 300px;
   text-align: center;
   padding: 2em;
@@ -564,7 +564,7 @@ button:active {
 }
 
 @media (min-width: 1024px) {
-  /* prettier-ignore */
+
   .about-myself {
     background: url(left.svg) no-repeat 0% 20%, url(right.svg) no-repeat 100% 0%;
   }
@@ -579,7 +579,7 @@ button:active {
   }
 }
 
-/* Footer section */
+
 .footer-box {
   margin-top: 2em;
   display: flex;
@@ -588,7 +588,7 @@ button:active {
   justify-content: center;
   align-items: center;
 
-  /* prettier-ignore */
+  
   background: url(./assest/illustration-contact-form.svg) no-repeat 100% 90%;
   padding: 2em 5em;
 }
@@ -698,7 +698,7 @@ footer::after {
     margin-bottom: 0;
     padding-bottom: 0;
 
-    /* prettier-ignore */
+    
     background: url(contact1.svg) no-repeat 0% 90%, url(contact2.svg) no-repeat 30% 90%, url(hey.svg) no-repeat 100% 90%;
   }
 
