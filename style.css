@@ -167,17 +167,17 @@ button:active {
   color: #28352f;
 }
 
-.headline {
+.section1 {
   background: #fff url(acd.svg) no-repeat;
   background-size: 100%;
   overflow: hidden;
 }
 
-.headline h1:first-child {
+.section1 h1:first-child {
   margin-top: 1.5em;
 }
 
-.headline p {
+.section1 p {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -187,11 +187,11 @@ button:active {
   color: #172b4d;
 }
 
-.headline button {
+.section1 button {
   background: none;
 }
 
-.social-media {
+.social-icon {
   list-style: none;
   padding: 0;
   display: flex;
@@ -228,7 +228,7 @@ button:active {
     cursor: pointer;
   }
 
-  .headline {
+  .section1 {
     background: #fff url(acd.svg) no-repeat;
     background-size: 100%;
     padding-bottom: 8em;
@@ -236,7 +236,7 @@ button:active {
 }
 
 @media (min-width: 1024px) {
-  .headline {
+  .section1 {
     padding-bottom: 15em;
   }
 }
@@ -525,7 +525,7 @@ button:active {
   justify-content: flex-start;
   padding: 30px 0 0 0;
   margin-bottom: 2em;
-  height: 352px;
+  height: 372px;
   width: 327px;
   background: #ebf0ee;
   border: 1px lightgrey solid;
@@ -614,7 +614,7 @@ form {
   align-items: center;
 }
 
-.social-media > ul > li > a {
+.social-icon > ul > li > a {
   text-decoration: none;
   color: #42526e;
   font-size: 20px;
@@ -720,7 +720,7 @@ footer::after {
     padding: 0;
   }
 
-  .footer-container > .social-media {
+  .footer-container > .social-icon {
     margin-top: 18em;
   }
 
