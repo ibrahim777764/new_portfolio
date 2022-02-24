@@ -21,7 +21,7 @@ build the first 2 sections of the mobile website using the template you chose in
 
 ![screenshot](./s7.png)
 
-![screenshot](./s8.png)
+![screenshot](./s9.png)
 
 ## Built With
 
