@@ -511,7 +511,6 @@ button:active {
   background: url(ac.svg) no-repeat 100% 0%, url(./assest/istration_2-about_me_mobile.svg) no-repeat 0 300px;
   text-align: center;
   padding: 2em;
-  
 }
 
 .about-myself p {
@@ -575,21 +574,17 @@ button:active {
   align-items: center;
 }
 
-
 @media (max-width: 600px) {
   .about-myself {
     background: url(right1.svg) no-repeat 100% 0%, url(left1.svg) no-repeat 0 300px;
-  
   }
 }
 
-
 @media (min-width: 601px) {
-    .about-myself {
-      background: url(right.svg) no-repeat 100% 0%, url(left.svg) no-repeat 0 300px;
-    
-    }
+  .about-myself {
+    background: url(right.svg) no-repeat 100% 0%, url(left.svg) no-repeat 0 300px;
   }
+}
 
 @media (min-width: 768px) {
   .categorie-about-myself {
