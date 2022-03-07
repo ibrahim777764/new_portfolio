@@ -174,6 +174,47 @@ button:active {
   display: none;
 }
 
+.is-visible {
+  display: block;
+}
+
+.toggle-content {
+  display: none;
+}
+
+.toggle-content.is-visible {
+  display: block;
+}
+
+#mobile-menu-modal {
+  position: fixed;
+  height: 100%;
+  width: 80%;
+  margin: 28px;
+}
+
+.mobile-menu-list {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-menu-list-item {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #3a4a42;
+}
+
+.close-modal {
+  float: right;
+  color: #67798e;
+  font-size: x-large;
+}
+
 .header-logo {
   text-decoration: none;
   font-family: 'Inter', sans-serif;
@@ -602,7 +643,6 @@ button:active {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background: url(./assest/illustration-contact-form.svg) no-repeat 100% 90%;
   padding: 2em 5em;
 }
 
