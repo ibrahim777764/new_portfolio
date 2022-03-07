@@ -5,12 +5,22 @@
 <html lang="en">
 
 <head>
+     
+      <script async src="index.js"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { window.dataLayer.push(arguments); }
+          gtag('js', new Date());
+  
+          gtag('config', 'GA_MEASUREMENT_ID');
+      </script>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ibrahim's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -35,7 +45,11 @@
                 <li>About</li>
                 <li>Contact</li>
             </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </nav>
+      
         <div class="container container-flex">
             <h2 class="header-title">
                 Hey there. I’m ibrahim
@@ -270,28 +284,25 @@
 
                     </li>
                     <li class="input-full-name">
-                        <label for="name">Enter your first name </label>
-                        <input  type="text" name="first_name" id="first_name" maxlength="30" placeholder="First name"
+                        <input type="text" name="first_name" id="first_name" maxlength="30" placeholder="First name"
                             required>
-                            <label for="name">Enter your last name </label>
                         <input type="text" name="last_name" id="last_name" maxlength="30" placeholder="Last name"
                             required>
                     </li>
-                    <li class="input-email-li">
-                        <label for="name">Enter your email </label>
+
+
+                    <li>
                         <input class="input-email" type="email" name="email" id="email" placeholder="Email address"
                             required>
                     </li>
                     <li>
-                        <label for="name">Enter your message </label>
                         <textarea name="text_area" id="text_area" cols="30" rows="10" maxlength="500"
                             placeholder="Enter text here" required></textarea>
                     </li>
                     <li class="submit-button">
                         <button type="submit">
                             Get in touch
-                        </button><br>
-                        <small></small>
+                        </button>
                     </li>
                 </ul>
             </form>
@@ -326,6 +337,16 @@
         </ul>
         <a href="https://mail.google.com/" class="link-mail">ibrahimnaseer896.gmail.com</a>
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("nav-desktop");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 
 </html>
