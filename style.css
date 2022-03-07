@@ -173,6 +173,7 @@ button:active {
 .nav-mobile.hidden {
   display: none;
 }
+
 .is-visible {
   display: block;
 }
@@ -184,6 +185,7 @@ button:active {
 .toggle-content.is-visible {
   display: block;
 }
+
 #mobile-menu-modal {
   position: fixed;
   height: 100%;
@@ -204,9 +206,9 @@ button:active {
   font-weight: 600;
   font-size: 32px;
   line-height: 42px;
-  padding: 20px 0px 20px 0;
   color: #3a4a42;
 }
+
 .close-modal {
   float: right;
   color: #67798e;
@@ -222,7 +224,6 @@ button:active {
   line-height: 28px;
   color: #28352f;
 }
-
 
 .section1 {
   background: #fff url(acd.svg) no-repeat;
@@ -274,7 +275,6 @@ button:active {
     padding-top: 1em;
     margin: 0;
   }
-
 
   .nav-desktop li {
     list-style: none;

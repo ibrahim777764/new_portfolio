@@ -5,7 +5,6 @@ const linkPortfolio = document.querySelector('.link-portfolio');
 const linkAbout = document.querySelector('.link-about');
 const linkContact = document.querySelector('.link-contact');
 
-
 menuBtn.addEventListener('click', () => {
   menuBtn.classList.add('hidden');
   headerNavMobile.classList.remove('hidden');
@@ -29,23 +28,4 @@ linkAbout.addEventListener('click', () => {
 linkContact.addEventListener('click', () => {
   headerNavMobile.classList.add('hidden');
   menuBtn.classList.remove('hidden');
-});
-
-let isVisible = false;
-
-function toggleModalVisibility() {
-  isVisible = !isVisible;
-  sideMenuModal.classList.toggle('is-visible');
-  mainPage.style.display = isVisible ? 'none' : 'block';
-}
-
-sideMenuButton.addEventListener('click', () => {
-  toggleModalVisibility();
-});
-
-menuItems.forEach((menuItem) => {
-  menuItem.addEventListener('click', (ev) => {
-    toggleModalVisibility();
-    window.location.hash = ev.target.getAttribute('data-location');
-  });
 });
