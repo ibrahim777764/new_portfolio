@@ -674,13 +674,6 @@ button:active {
   height: 615px;
 }
 
-.btn-popup {
-  background-image: url("shortcut.png");
-  background-repeat: no-repeat;
-  
-  
-} 
-
 .details-font {
   font-family: Inter, sans-serif;
   font-size: 16px;
