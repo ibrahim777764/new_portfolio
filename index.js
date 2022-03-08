@@ -4,6 +4,9 @@ const btnCloseNav = document.querySelector('.btn-close-nav');
 const linkPortfolio = document.querySelector('.link-portfolio');
 const linkAbout = document.querySelector('.link-about');
 const linkContact = document.querySelector('.link-contact');
+const closeDetailBtn = document.querySelector('#close-detail');
+const detailModal = document.querySelector('#mobile-details-modal');
+const seeProjectButtons = document.querySelectorAll(".see-project");
 
 menuBtn.addEventListener('click', () => {
   menuBtn.classList.add('hidden');
@@ -28,4 +31,16 @@ linkAbout.addEventListener('click', () => {
 linkContact.addEventListener('click', () => {
   headerNavMobile.classList.add('hidden');
   menuBtn.classList.remove('hidden');
+});
+
+seeProjectButtons.forEach((mybutton) => {
+  mybutton.addEventListener('click', function(){
+    detailModal.classList.remove('hidden');
+    console.log(detailModal);
+  });
+});
+
+
+closeDetailBtn.addEventListener('click', () => {
+  detailModal.classList.add('hidden');
 });

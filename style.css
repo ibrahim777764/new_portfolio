@@ -174,6 +174,10 @@ button:active {
   display: none;
 }
 
+.mobile-modal.hidden {
+  display: none;
+}
+
 .is-visible {
   display: block;
 }
@@ -623,6 +627,10 @@ button:active {
   align-items: center;
 }
 
+#close-detail {
+  float: right;
+}
+
 .detail-popup-heading {
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -630,8 +638,12 @@ button:active {
   line-height: 44px;
 }
 
+.icon-btn {
+  float: right;
+  margin-left: 7px;
+}
+
 #mobile-details-modal {
-  display: block; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 5px; /* Location of the box */
@@ -654,17 +666,17 @@ button:active {
 }
 
 .mobile-details-content {
-  background-image: url("./Snapshoot_Portfolio.png");
+  background-image: url("./detail-background-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 25%;
+  margin-bottom: 15px;
 }
 
 .popup-button-group {
-  
-} 
+}
 
 .details-font {
   font-family: Inter, sans-serif;

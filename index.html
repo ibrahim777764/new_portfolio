@@ -25,10 +25,10 @@
 
 <body>
 
-    <div id="mobile-details-modal">
+    <div id="mobile-details-modal" class="mobile-modal hidden" >
         <div class="mobile-details-container card-work" >
             <div class="mobile-details-content">
-                
+                <img id="close-detail" src="./Enabled_1.png" alt="close-icon" />
             </div>
             <div>
                 <h2 class="detail-popup-heading">
@@ -57,9 +57,11 @@
             <div class="popup-button-group">
                 <button type="button" class="btn-popup">
                     See Live
+                    <img class="icon-btn" src="./Icon - Export.png" />
                 </button>
                 <button type="button" class="btn-popup">
                     See Source
+                    <img class="icon-btn" src="./Icon -GitHub.png" />
                 </button>
             </div>
         </div>
@@ -179,11 +181,7 @@
                     <li>html</li>
                 </ul>
               
-                    <button id="myBtn">see project</button>
-
-             
-   
-               
+                    <button id="myBtn" class="btn-popup see-project">see project</button>               
              
             </article>
 
@@ -199,7 +197,7 @@
                     <li>Apollo-client</li>
                     <li>Apollo-server</li>
                 </ul>
-                <button type="button" class="btn-popup">
+                <button type="button" class="btn-popup see-project">
                     See Project
                 </button>
             </article>
@@ -216,7 +214,7 @@
                     <li>JavaScript</li>
                     <li>Css</li>
                 </ul>
-                <button type="button" class="btn-popup">
+                <button type="button" class="btn-popup see-project">
                     See Project
                 </button>
             </article>
@@ -233,7 +231,7 @@
                     <li>JavaScript</li>
                     <li>html</li>
                 </ul>
-                <button type="button" class="btn-popup">
+                <button type="button" class="btn-popup see-project">
                     See Project
                 </button>
             </article>
@@ -250,7 +248,7 @@
                     <li>JavaScript</li>
                     <li>html</li>
                 </ul>
-                <button type="button" class="btn-popup">
+                <button type="button" class="btn-popup see-project">
                     See Project
                 </button>
             </article>
@@ -267,7 +265,7 @@
                     <li>JavaScript</li>
                     <li>html</li>
                 </ul>
-                <button type="button" class="btn-popup">
+                <button type="button" class="btn-popup see-project">
                     See Project
                 </button>
             </article>
@@ -405,9 +403,9 @@
         <a href="https://mail.google.com/" class="link-mail">ibrahimnaseer896.gmail.com</a>
     </footer>
  
-<div id="myModal" class="modal">
+<!-- <div id="myModal" class="modal">
 
-  <!-- Modal content -->
+  
   <div class="modal-content">
     <span class="close">&times;</span>
     <p>   <article class="card-work">
@@ -428,33 +426,33 @@
     </article>.</p>
   </div>
 
-</div>
+</div> -->
     <script>
         // Get the modal
-        var modal = document.getElementById("myModal");
+        // var modal = document.getElementById("myModal");
         
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
+        // // Get the button that opens the modal
+        // var btn = document.getElementById("myBtn");
         
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
+        // // Get the <span> element that closes the modal
+        // var span = document.getElementsByClassName("close")[0];
         
-        // When the user clicks the button, open the modal 
-        btn.onclick = function() {
-          modal.style.display = "block";
-        }
+        // // When the user clicks the button, open the modal 
+        // btn.onclick = function() {
+        //   modal.style.display = "block";
+        // }
         
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-          modal.style.display = "none";
-        }
+        // // When the user clicks on <span> (x), close the modal
+        // span.onclick = function() {
+        //   modal.style.display = "none";
+        // }
         
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
-          }
-        }
+        // // When the user clicks anywhere outside of the modal, close it
+        // window.onclick = function(event) {
+        //   if (event.target == modal) {
+        //     modal.style.display = "none";
+        //   }
+        // }
         </script>
         
    
