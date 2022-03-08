@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 html,
 body {
@@ -14,11 +14,11 @@ body {
 body {
   display: block;
   background: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -217,7 +217,7 @@ button:active {
 
 .header-logo {
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -313,7 +313,7 @@ button:active {
 }
 
 .Recent h2:first-child::after {
-  content: '';
+  content: "";
   height: 4px;
   width: 48px;
   margin: 0 auto;
@@ -556,7 +556,8 @@ button:active {
 
 .about-myself {
   margin-top: 2em;
-  background: url(ac.svg) no-repeat 100% 0%, url(./assest/istration_2-about_me_mobile.svg) no-repeat 0 300px;
+  background: url(ac.svg) no-repeat 100% 0%,
+    url(./assest/istration_2-about_me_mobile.svg) no-repeat 0 300px;
   text-align: center;
   padding: 2em;
 }
@@ -622,15 +623,75 @@ button:active {
   align-items: center;
 }
 
+.detail-popup-heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #172b4d;
+  line-height: 44px;
+}
+
+#mobile-details-modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 5px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.mobile-details-container {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 85%;
+  height: 90%;
+  border-radius: 16px;
+}
+
+.mobile-details-content {
+  background-image: url("./Snapshoot_Portfolio.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 25%;
+}
+
+.popup-button-group {
+  
+} 
+
+.details-font {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.popup-cards {
+  display: flex;
+  justify-content: flex-start;
+}
+
 @media (max-width: 600px) {
   .about-myself {
-    background: url(right1.svg) no-repeat 100% 0%, url(left1.svg) no-repeat 0 300px;
+    background: url(right1.svg) no-repeat 100% 0%,
+      url(left1.svg) no-repeat 0 300px;
   }
 }
 
 @media (min-width: 601px) {
   .about-myself {
-    background: url(right.svg) no-repeat 100% 0%, url(left.svg) no-repeat 0 300px;
+    background: url(right.svg) no-repeat 100% 0%,
+      url(left.svg) no-repeat 0 300px;
   }
 }
 
@@ -727,7 +788,7 @@ textarea:valid {
 }
 
 footer::after {
-  content: '';
+  content: "";
   height: 4px;
   width: 150px;
   margin: 0 auto;
@@ -757,7 +818,8 @@ footer::after {
   .footer-box {
     margin-bottom: 0;
     padding-bottom: 0;
-    background: url(contact1.svg) no-repeat 0% 90%, url(contact2.svg) no-repeat 30% 90%, url(hey.svg) no-repeat 100% 90%;
+    background: url(contact1.svg) no-repeat 0% 90%,
+      url(contact2.svg) no-repeat 30% 90%, url(hey.svg) no-repeat 100% 90%;
   }
 
   .footer-form {
@@ -811,8 +873,8 @@ footer::after {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
