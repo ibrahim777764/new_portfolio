@@ -659,10 +659,13 @@ button:active {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 25%;
+  height: 615px;
 }
 
-.popup-button-group {
+.btn-popup {
+  background-image: url("shortcut.png");
+  background-repeat: no-repeat;
+  
   
 } 
 
