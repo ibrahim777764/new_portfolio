@@ -39,6 +39,19 @@ h2 {
   margin-bottom: 0;
 }
 
+.popup-button-group {
+  display: flex;
+}
+
+.popup-button-group-desktop {
+  display: none;
+}
+
+.btn-popup {
+  margin-right: 10px;
+  margin-top: 0;
+}
+
 h4 {
   height: 57px;
   width: 337px;
@@ -306,6 +319,17 @@ button:active {
     padding-top: 3em;
   }
 
+  .mobile-details-container {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 85%;
+    height: 90%;
+    border-radius: 16px;
+    overflow-y: auto;
+  }
+
   .mobile-details-content {
     background-image: url("./Snapshoo_ Portfolio_desktop.png");
     background-position: center;
@@ -324,6 +348,17 @@ button:active {
     padding: 0;
     padding-top: 1em;
     margin: 0;
+  }
+
+  .popup-button-group-desktop {
+    display: flex;
+  }
+  .popup-button-group {
+    display: none;
+  }
+
+  .heading-and-button-group {
+    display: flex;
   }
 
   .nav-desktop li {
@@ -682,14 +717,12 @@ button:active {
   font-weight: 600;
   color: #172b4d;
   line-height: 44px;
+  margin-right: 20px;
 }
 
 .icon-btn {
   float: right;
   margin-left: 7px;
-}
-
-.popup-button-group {
 }
 
 .details-font {
