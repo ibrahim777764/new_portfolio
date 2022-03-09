@@ -1,3 +1,4 @@
+window.onload = () => {
 const menuBtn = document.querySelector('.menu-btn');
 const headerNavMobile = document.querySelector('.nav-mobile');
 const btnCloseNav = document.querySelector('.btn-close-nav');
@@ -44,3 +45,105 @@ seeProjectButtons.forEach((mybutton) => {
 closeDetailBtn.addEventListener('click', () => {
   detailModal.classList.add('hidden');
 });
+
+
+const projects = [{
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  featured_image: 'images/Snapshoot Portfolio_1.png',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  link_to_live: 'https://ibrahim777764.github.io/new_portfolio/',
+  link_to_source: 'https://github.com/ibrahim777764/new_portfolio',
+},
+{
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  featured_image: 'images/Snapshoot Portfolio_1.png',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  link_to_live: 'https://ibrahim777764.github.io/new_portfolio/',
+  link_to_source: 'https://github.com/ibrahim777764/new_portfolio',
+},
+{
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  featured_image: 'images/Snapshoot Portfolio_1.png',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  link_to_live: 'https://ibrahim777764.github.io/new_portfolio/',
+  link_to_source: 'https://github.com/ibrahim777764/new_portfolio',
+},
+{
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  featured_image: 'images/Snapshoot Portfolio_1.png',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  link_to_live: 'https://ibrahim777764.github.io/new_portfolio/',
+  link_to_source: 'https://github.com/ibrahim777764/new_portfolio',
+},
+{
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  featured_image: 'images/Snapshoot Portfolio_1.png',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  link_to_live: 'https://ibrahim777764.github.io/new_portfolio/',
+  link_to_source: 'https://github.com/ibrahim777764/new_portfolio',
+},
+{
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  featured_image: 'images/Snapshoot Portfolio_1.png',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  link_to_live: 'https://ibrahim777764.github.io/new_portfolio/',
+  link_to_source: 'https://github.com/ibrahim777764/new_portfolio/',
+},
+];
+
+let gridTemplate = document.getElementById('grid-template');
+let recentWorks = document.getElementById('Recent-id');
+let detailsPopUpHeading = document.querySelector('.detail-popup-heading');
+const popupWindow = document.getElementById('mobile-details-modal');
+projects.forEach((project) => {
+  const clonedNode = gridTemplate.children[0].cloneNode(true);
+  clonedNode.children[0].children[0].innerText = project.name;
+  recentWorks.appendChild(clonedNode);
+  
+  detailsPopUpHeading.textContent = project.name;
+
+  const btnPopups = recentWorks.querySelectorAll('.btn-popup');
+  btnPopups.forEach((button) => {
+    button.addEventListener('click', () => {
+      popupWindow.classList.remove('hidden');
+    });
+  })
+
+});
+
+// // projects.forEach((project) => {
+// //   const clonedNode = gridTemplate.children[0].cloneNode(true);
+// //   clonedNode.children[0].children[0].innerText = project.name;
+// //   const techList = document.createElement('ul');
+// //   techList.classList.add('tech-list');
+// //   const showProjectButton = document.createElement('button');
+// //   showProjectButton.type = 'button';
+// //   showProjectButton.textContent = 'See Project';
+// //   showProjectButton.classList.add('see-project-btn');
+
+// //   project.technologies.forEach((tech) => {
+// //     const listItem = document.createElement('li');
+// //     listItem.classList.add('tech-item');
+// //     listItem.textContent = tech;
+// //     techList.appendChild(listItem);
+// //   });
+
+// //   clonedNode.children[0].children[0].appendChild(techList);
+// //   clonedNode.children[0].children[0].appendChild(showProjectButton);
+// //   grid.appendChild(clonedNode);
+
+// //   showProjectButton.addEventListener('click', () => {
+// //     detailsModal.classList.remove('hidden');
+// //     const paragraghDescription = detailsModal.querySelector('p');
+// //     const detailsHeader = detailsModal.querySelector('h3.details-heading');
+// //     paragraghDescription.textContent = project.description;
+// //     detailsPopUpHeading.textContent =  project.name;
+// //   });
+// });
+}
