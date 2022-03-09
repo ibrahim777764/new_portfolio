@@ -445,6 +445,15 @@ button:active {
   justify-content: space-around;
 }
 
+.card-tags1 >li {
+  background: #ebf0ee;
+  font-size: 12px;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  border-radius: 2px;
+
+}
+
 .card-work > .card-tags > li {
   background: #ebf0ee;
   font-size: 12px;
