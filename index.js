@@ -114,34 +114,4 @@ window.onload = () => {
       });
     });
   });
-
-  // // projects.forEach((project) => {
-  // //   const clonedNode = gridTemplate.children[0].cloneNode(true);
-  // //   clonedNode.children[0].children[0].innerText = project.name;
-  // //   const techList = document.createElement('ul');
-  // //   techList.classList.add('tech-list');
-  // //   const showProjectButton = document.createElement('button');
-  // //   showProjectButton.type = 'button';
-  // //   showProjectButton.textContent = 'See Project';
-  // //   showProjectButton.classList.add('see-project-btn');
-
-  // //   project.technologies.forEach((tech) => {
-  // //     const listItem = document.createElement('li');
-  // //     listItem.classList.add('tech-item');
-  // //     listItem.textContent = tech;
-  // //     techList.appendChild(listItem);
-  // //   });
-
-  // //   clonedNode.children[0].children[0].appendChild(techList);
-  // //   clonedNode.children[0].children[0].appendChild(showProjectButton);
-  // //   grid.appendChild(clonedNode);
-
-// //   showProjectButton.addEventListener('click', () => {
-// //     detailsModal.classList.remove('hidden');
-// //     const paragraghDescription = detailsModal.querySelector('p');
-// //     const detailsHeader = detailsModal.querySelector('h3.details-heading');
-// //     paragraghDescription.textContent = project.description;
-// //     detailsPopUpHeading.textContent =  project.name;
-// //   });
-// });
 };
