@@ -5,7 +5,7 @@
 <html lang="en">
 
 <head>
-     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">     
        <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
       <script>
           window.dataLayer = window.dataLayer || [];
@@ -24,6 +24,60 @@
 </head>
 
 <body>
+
+    <div id="mobile-details-modal" class="mobile-modal hidden" >
+        <div class="mobile-details-container" >
+            <div class="mobile-details-content">
+                <img id="close-detail" src="./Enabled_1.png" alt="close-icon" />
+            </div>
+            <div class="heading-and-button-group">
+                <h2 class="detail-popup-heading">
+                    **heading**
+                </h2>
+                <div class="popup-button-group-desktop">
+                    <button type="button" class="btn-popup">
+                        See Live
+                        <img alt="shortcut" class="icon-btn" src="./exp.png" />
+                    </button>
+                    <button type="button" class="btn-popup">
+                        See Source
+                        <img alt="icon" class="icon-btn" src="gitexp.png" />
+                    </button>
+                </div>
+            </div>
+            
+            <ul class="card-tags1 popup-cards">
+                <li>React</li>
+                <li>css</li>
+                <li>JavaScript</li>
+            </ul>
+            <p class="details-font">
+                Lorem Ipsum is simply dummy text of the 
+                printing and typesetting industry. Lorem 
+                Ipsum has been the industry's standard dummy 
+                text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled 
+                it 1960s with the releaLorem Ipsum is simply 
+                dummy text of the printing and typesetting 
+                industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when 
+                an unknown printer took a galley of type and 
+                scrambled it 1960s with the release
+            </p>
+            <div class="popup-button-group">
+                <button type="button" class="btn-popup">
+                    See Live
+                    <img alt="icon" class="icon-btn" src="exp.png" />
+                </button>
+                <button type="button" class="btn-popup">
+                    See Source
+                    <img alt="icon" class="icon-btn" src="gitexp.png" />
+                </button>
+            </div>
+        </div>
+    </div>
+
+
     <header>
         <div class="nav-phone">
             <a href="index.html" class="header-logo">
@@ -66,10 +120,27 @@
                 <li>About</li>
                 <li>Contact</li>
             </ul>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
         </nav>
+
+        <div id="grid-template">
+            <article class="card-work">
+                <div class="card-image">
+                    <img class="img1" src="main.png" alt="img">
+                </div>
+                <h4 class="card-title">
+                    
+                </h4>
+                <ul class="card-tags">
+                    <li>React</li>
+                    <li>css</li>
+                    <li>JavaScript</li>
+                    <li>html</li>
+                </ul>
+              
+                <button id="myBtn" type="button" class="btn-popup see-project">see project</button>               
+             
+            </article>
+        </div>
       
         <div class="container container-flex">
             <h2 class="header-title">
@@ -123,117 +194,16 @@
     <section>
         <div class="Recent" id="Recent-id">
             <h2>My Recent Works</h2>
-            <article class="card-work">
-                <div class="card-image">
-                    <img class="img1" src="main.png" alt="img">
-                </div>
-                <h4 class="card-title">
-                    Multi-Post Stories Gain+Glory
-                </h4>
-                <ul class="card-tags">
-                    <li>React</li>
-                    <li>css</li>
-                    <li>JavaScript</li>
-                    <li>html</li>
-                </ul>
-                <button type="button" class="btn-popup">
-                    See Project
-                </button>
-            </article>
-
-            <article class="card-work">
-                <div class="card-image">
-                    <img src="main.png" alt="img">
-                </div>
-                <h4 class="card-title">
-                    Multi-Post Stories Gain+Glory
-                </h4>
-                <ul class="card-tags">
-                    <li>React</li>
-                    <li>Apollo-client</li>
-                    <li>Apollo-server</li>
-                </ul>
-                <button type="button" class="btn-popup">
-                    See Project
-                </button>
-            </article>
-            <article class="card-work">
-                <div class="card-image">
-                    <img src="main.png" alt="img">
-                </div>
-                <h4 class="card-title">
-                    Multi-Post Stories Gain+Glory
-                </h4>
-                <ul class="card-tags">
-                    <li>React</li>
-                    <li>Firebase</li>
-                    <li>JavaScript</li>
-                    <li>Css</li>
-                </ul>
-                <button type="button" class="btn-popup">
-                    See Project
-                </button>
-            </article>
-            <article class="card-work">
-                <div class="card-image">
-                    <img src="main.png" alt="img">
-                </div>
-                <h4 class="card-title">
-                    Multi-Post Stories Gain+Glory
-                </h4>
-                <ul class="card-tags">
-                    <li>Rubi on rails</li>
-                    <li>css</li>
-                    <li>JavaScript</li>
-                    <li>html</li>
-                </ul>
-                <button type="button" class="btn-popup">
-                    See Project
-                </button>
-            </article>
-            <article class="card-work">
-                <div class="card-image">
-                    <img src="main.png" alt="img">
-                </div>
-                <h4 class="card-title">
-                    Multi-Post Stories Gain+Glory
-                </h4>
-                <ul class="card-tags">
-                    <li>Rubi on rails</li>
-                    <li>css</li>
-                    <li>JavaScript</li>
-                    <li>html</li>
-                </ul>
-                <button type="button" class="btn-popup">
-                    See Project
-                </button>
-            </article>
-            <article class="card-work">
-                <div class="card-image">
-                    <img src="main.png" alt="img">
-                </div>
-                <h4 class="card-title">
-                    Multi-Post Stories Gain+Glory
-                </h4>
-                <ul class="card-tags">
-                    <li>Rubi on rails</li>
-                    <li>css</li>
-                    <li>JavaScript</li>
-                    <li>html</li>
-                </ul>
-                <button type="button" class="btn-popup">
-                    See Project
-                </button>
-            </article>
+            
         </div>
     </section>
     <section class="container-flex about-myself" id="about-myself-id">
         <div class="container">
             <h2>About me</h2>
             <p>
-                I can help you build a product , feature or website Look through some of my work and experience! If you
-                like
-                what you see and have a project you need coded,
+                I can help you build a product , feature or website 
+                Look through some of my work and experience! If you
+                like what you see and have a project you need coded,
                 don’t hestiate to contact me.
             </p>
             <button type="button">
@@ -358,6 +328,7 @@
         </ul>
         <a href="https://mail.google.com/" class="link-mail">ibrahimnaseer896.gmail.com</a>
     </footer>
+ 
     <script src="index.js"></script>
 </body>
 

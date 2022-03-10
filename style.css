@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 html,
 body {
@@ -14,11 +14,11 @@ body {
 body {
   display: block;
   background: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -37,6 +37,23 @@ h2 {
   color: #172b4d;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.popup-button-group {
+  display: flex;
+}
+
+.popup-button-group-desktop {
+  display: none;
+}
+
+.btn-popup {
+  margin-right: 5px;
+  margin-top: 0;
+  padding: 0.7rem;
+  flex-wrap: nowrap;
+  width: 150px;
+  letter-spacing: 0;
 }
 
 h4 {
@@ -82,6 +99,10 @@ button {
   padding: 1em 1.5em;
   color: white;
   border-radius: 3px;
+}
+
+#grid-template {
+  display: none;
 }
 
 button:hover {
@@ -130,6 +151,39 @@ button:active {
   border-radius: 5px;
 }
 
+.mobile-details-container {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 85%;
+  height: 90%;
+  border-radius: 16px;
+  overflow-y: auto;
+}
+
+.mobile-details-content {
+  background-image: url("./detail-background-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 25%;
+  margin-bottom: 15px;
+}
+
+#mobile-details-modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 5px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
 .menu-btn,
 .nav-mobile > button {
   background-color: white;
@@ -143,6 +197,14 @@ button:active {
 
 .nav-mobile > img {
   width: 2em;
+}
+
+.card-tags1 > li {
+  background: #ebf0ee;
+  font-size: 12px;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  border-radius: 2px;
 }
 
 .nav-mobile > ul > li {
@@ -171,6 +233,10 @@ button:active {
 }
 
 .nav-mobile.hidden {
+  display: none;
+}
+
+.mobile-modal.hidden {
   display: none;
 }
 
@@ -217,7 +283,7 @@ button:active {
 
 .header-logo {
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -266,6 +332,27 @@ button:active {
     padding-top: 3em;
   }
 
+  .mobile-details-container {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 85%;
+    height: 90%;
+    border-radius: 16px;
+    overflow-y: auto;
+  }
+
+  .mobile-details-content {
+    background-image: url("./Snapshoo_ Portfolio_desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+  }
+
   .nav-desktop {
     display: flex;
     flex-direction: row;
@@ -274,6 +361,18 @@ button:active {
     padding: 0;
     padding-top: 1em;
     margin: 0;
+  }
+
+  .popup-button-group-desktop {
+    display: flex;
+  }
+
+  .popup-button-group {
+    display: none;
+  }
+
+  .heading-and-button-group {
+    display: flex;
   }
 
   .nav-desktop li {
@@ -313,7 +412,7 @@ button:active {
 }
 
 .Recent h2:first-child::after {
-  content: '';
+  content: "";
   height: 4px;
   width: 48px;
   margin: 0 auto;
@@ -376,6 +475,14 @@ button:active {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transition: 2000ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+  height: 100%;
+  width: 100%;
+  z-index: 2;
 }
 
 .btn-close-details {
@@ -401,8 +508,7 @@ button:active {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 2em;
-  line-height: 44px;
+  font-size: 1.5em;
   color: #172b4d;
   text-align: left;
 }
@@ -615,6 +721,37 @@ button:active {
   align-items: center;
 }
 
+#close-detail {
+  float: right;
+}
+
+.detail-popup-heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #172b4d;
+  line-height: 44px;
+  margin-right: 20px;
+}
+
+.icon-btn {
+  float: right;
+  margin-left: 7px;
+}
+
+.details-font {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.popup-cards {
+  display: flex;
+  justify-content: flex-start;
+}
+
 @media (max-width: 600px) {
   .about-myself {
     background: url(right1.svg) no-repeat 100% 0%, url(left1.svg) no-repeat 0 300px;
@@ -720,7 +857,7 @@ textarea:valid {
 }
 
 footer::after {
-  content: '';
+  content: "";
   height: 4px;
   width: 150px;
   margin: 0 auto;
@@ -793,4 +930,42 @@ footer::after {
   .submit-button {
     align-self: flex-start;
   }
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
