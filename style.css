@@ -47,15 +47,13 @@ h2 {
   display: none;
 }
 
-.popup-button-group > .btn-popup {
-  margin-right: 10px;
+.btn-popup {
+  margin-right: 5px;
   margin-top: 0;
-  display: flex;
-  padding: 15px;
-}
-
-.popup-button-group-desktop > .btn-popup {
-  margin-right: 10px;
+  padding: 0.7rem;
+  flex-wrap: nowrap;
+  width: 150px;
+  letter-spacing: 0;
 }
 
 h4 {
@@ -175,15 +173,15 @@ button:active {
 }
 
 #mobile-details-modal {
-  position: fixed;
-  z-index: 1;
-  padding-top: 5px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 5px; /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 .menu-btn,
@@ -367,7 +365,6 @@ button:active {
 
   .popup-button-group-desktop {
     display: flex;
-    align-content: center;
   }
 
   .popup-button-group {
@@ -734,7 +731,6 @@ button:active {
   color: #172b4d;
   line-height: 44px;
   margin-right: 20px;
-  margin-top: 20px;
 }
 
 .icon-btn {
@@ -937,19 +933,20 @@ footer::after {
 }
 
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
+/* Modal Content */
 .modal-content {
   background-color: #fefefe;
   margin: auto;
@@ -958,6 +955,7 @@ footer::after {
   width: 80%;
 }
 
+/* The Close Button */
 .close {
   color: #aaa;
   float: right;
