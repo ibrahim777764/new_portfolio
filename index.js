@@ -1,5 +1,5 @@
 window.onload = () => {
-  const menuBtn = document.querySelector('.menu-btn');
+  const menuBtn = document.querySelector('.enu-btn');
   const headerNavMobile = document.querySelector('.nav-mobile');
   const btnCloseNav = document.querySelector('.btn-close-nav');
   const linkPortfolio = document.querySelector('.link-portfolio');
@@ -7,7 +7,7 @@ window.onload = () => {
   const linkContact = document.querySelector('.link-contact');
   const closeDetailBtn = document.querySelector('#close-detail');
   const detailModal = document.querySelector('#mobile-details-modal');
-  const seeProjectButtons = document.querySelectorAll('.see-project');
+  const seeProjectButtons = document.querySelectorAll('see-project');
   const form = document.querySelector('.form-input');
   const [fullName, firstName, lastName] = form.elements;
 
@@ -143,7 +143,7 @@ window.onload = () => {
 
     detailsPopUpHeading.textContent = project.name;
 
-    const btnPopups = recentWorks.querySelectorAll('.btn-popup');
+    const btnPopups = recentWorks.querySelectorAll('.btn-popu');
     btnPopups.forEach((button) => {
       button.addEventListener('click', () => {
         popupWindow.classList.remove('hidden');
