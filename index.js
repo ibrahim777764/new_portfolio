@@ -102,7 +102,7 @@ window.onload = () => {
   const popupWindow = document.getElementById('mobile-details-modal');
   projects.forEach((project) => {
     const clonedNode = gridTemplate.children[0].cloneNode(true);
-    clonedNode.children[0].children[0].innerText = project.name;
+    clonedNode.children[1].innerText = project.name;
     recentWorks.appendChild(clonedNode);
 
     detailsPopUpHeading.textContent = project.name;
