@@ -2,7 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".mypicture", {
   x: "92vw",
-  duration: 4,
+  duration: 1,
   yoyo: true,
   // repeat: -1,
   ease: "power4.out",
@@ -20,7 +20,7 @@ gsap.from("#main-header", {
   x: -200,
   y: -200,
   opacity: 0,
-  duration: 0.6,
+  duration: 0.1,
   scale: "1.5",
   scrollTrigger: {
     trigger: "#main-header",

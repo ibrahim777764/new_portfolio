@@ -2,8 +2,9 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   overflow: hidden;
   z-index: 4;
+  border-radius: 50%;
 }

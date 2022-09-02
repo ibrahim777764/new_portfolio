@@ -15,6 +15,7 @@ function cards(name, desc, tech, img) {
 
   const divStoriesCard = document.createElement("div");
   divStoriesCard.classList.add("stories-card");
+  divStoriesCard.style.backgroundImage = `url(${img})`;
 
   const divWhiteBack = document.createElement("div");
   divWhiteBack.classList.add("white-back");
@@ -46,76 +47,65 @@ function cards(name, desc, tech, img) {
 
 const projects = [
   {
-    title: "Daily Life Todo List will make your life worthy.",
-    description:
-      "To-do list is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. One of the most important reasons for keeping a to-do list is the organization. Organizing your tasks with a list can make everything much more manageable and make you feel grounded. Seeing a clear outline of your completed and uncompleted tasks will help you feel organized and stay mentally focused.",
-    imageUrl: "./images/todolist.png",
-    technologies: ["Ruby on rails", "css", "JavaScript", "html"],
-    liveVersion: "https://www.google.com/",
-    source: "https://github.com/",
+    title: "pak wheels car show",
+    description: "** PakWheels has been hosting auto shows in Karachi since 2015. Every year, we arrange this exciting event and call out all car lovers. An auto show, also known as a motor show or car show, is a public exhibition of current automobile models, debuts, concept cars, or out-of-production classics. It is attended by automotive industry representatives, dealers, auto journalists and car enthusiasts. Most auto shows occur once or twice a year**.",
+    imageUrl: "./images/project_images/pak2.jpeg",
+    technologies: ["JavaScript", "Webpack", "CSS", "Html"],
+    liveVersion: "https://ibrahim777764.github.io/project-capstone/",
+    source: "https://github.com/ibrahim777764/project-capstone",
   },
 
   {
-    title: "Multi-Post Stories Gain+Glory card 2",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageUrl: "./images/popup-mobile-pic.svg",
-    technologies: ["Ruby on rails", "css", "JavaScript", "html"],
-    liveVersion: "https://www.google.com/",
-    source: "https://github.com/",
+    title: "Awesome books",
+    description: "Awesome books is a simple website that displays a list of books and allows you to add and remove books from that list. see how to manage data using JavaScript. built with medium-fidelity wireframe for UI..",
+    imageUrl: "./images/project_images/aws.jpeg",
+    technologies: ["MEALDB API", "JavaScript", "Webpack", "CSS", "Html", "ES6 modules"],
+    liveVersion: "https://ibrahim777764.github.io/ES6-books-project/",
+    source: "https://github.com/ibrahim777764/ES6-books-project",
   },
 
   {
-    title: "Multi-Post Stories Gain+Glory card 3",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageUrl: "./images/popup-mobile-pic.svg",
-    technologies: ["Ruby on rails", "css", "JavaScript", "html"],
-    liveVersion: "https://www.google.com/",
-    source: "https://github.com/",
+    title: "IBflex",
+    description: "It is a single page application named ibnas , we are fetching the tvMazaAPI to get all the data and displaying it on screen, the data is in the form of movies. The users can like, comments on movies and also can put reservation for future.",
+    imageUrl: "./images/project_images/ibflix.png",
+    technologies: ["JavaScript", "Webpack", "CSS", "Html", "ES6 modules"],
+    liveVersion: "https://dapper-centaur-abc8d2.netlify.app",
+    source: "https://github.com/ibrahim777764/java-capstone",
   },
 
   {
-    title: "Multi-Post Stories Gain+Glory card 4",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageUrl: "./images/popup-mobile-pic.svg",
-    technologies: ["Ruby on rails", "css", "JavaScript", "html"],
-    liveVersion: "https://www.google.com/",
-    source: "https://github.com/",
+    title: "Manage Their Daily Task",
+    description: "An application that allow users to manage their daily task. They can add and delete a specific task, and even delete all those which already completed buiilt with JavaScript, webpack and experiment….",
+    imageUrl: "./images/project_images/manage.jpeg",
+    technologies: ["React", "Redux", "Jest", "JavaScript", "CSS", "Html"],
+    liveVersion: "https://thriving-caramel-8477aa.netlify.app",
+    source: "https://github.com/ABDULALI3468/crypto-capstone",
   },
 
   {
-    title: "Multi-Post Stories Gain+Glory card 5",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageUrl: "./images/popup-mobile-pic.svg",
-    technologies: ["Ruby on rails", "css", "JavaScript", "html"],
-    liveVersion: "https://www.google.com/",
-    source: "https://github.com/",
+    title: "game leaderboard",
+    description: "JavaScript project for the Leaderboard list app, built using webpack and ES6 features. The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved using the external Leaderboard API service..",
+    imageUrl: "./images/project_images/lead.jpeg",
+    technologies: ["Nodejs", "npm", "JavaScript", "Webpack", "CSS", "Html"],
+    liveVersion: "",
+    source: "https://ibrahim777764.github.io/leaderboard-es6/",
   },
 
   {
-    title: "Multi-Post Stories Gain+Glory card 6",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageUrl: "./images/popup-mobile-pic.svg",
-    technologies: ["Ruby on rails", "css", "JavaScript", "html"],
+    title: "Math Magicians",
+    description: "In this project I am creating a Single Page App using React regarding basic Calculator and its functionalities.",
+    imageUrl: "./images/project_images/mayhs.jpeg",
+    technologies: ["React", "JavaScript", "CSS", "ES6 modules", "JSX",],
     liveVersion: "https://www.google.com/",
-    source: "https://github.com/",
+    source: "https://github.com/ibrahim777764/Maths-magic",
   },
 ];
 
 for (let i = 0; i < projects.length; i += 1) {
-  cards(
-    projects[i].title,
-    projects[i].description,
-    projects[i].technologies,
-    projects[i].imageUrl
-  );
+  cards(projects[i].title, projects[i].description, projects[i].technologies, projects[i].imageUrl);
 }
 
-const createPopup = (name, img, desc, tech) => {
+const createPopup = (name, img, desc, tech, liveVersion, project_source) => {
   const divul = document.createElement("ul");
   popupcontainer.classList.add("mobile-popup-container");
   popupcontainer.classList.add("display-none");
@@ -156,7 +146,7 @@ const createPopup = (name, img, desc, tech) => {
 
   const live = document.createElement("div");
   live.classList.add("live-button");
-  live.innerHTML = `<a class="live" href="https://abdulali3468.github.io/Daily-life-TODO-LIST/">See Live</a>`;
+  live.innerHTML = `<a class="live" href="${liveVersion}">See Live</a>`;
   // const plive = document.createElement('p');
   // plive.innerText = 'See Live';
   const imglive = document.createElement("img");
@@ -166,7 +156,7 @@ const createPopup = (name, img, desc, tech) => {
   const source = document.createElement("div");
   source.classList.add("live-button");
   source.classList.add("ml");
-  source.innerHTML = `<a class="live" href="https://github.com/ABDULALI3468/Daily-life-TODO-LIST">See Source</a>`;
+  source.innerHTML = `<a class="live" href="${project_source}">See Source</a>`;
   // const psource = document.createElement("p");
   // psource.innerText = "See Source";
   const imgsource = document.createElement("img");
@@ -200,14 +190,10 @@ const storybutton = document.querySelectorAll(".seepr-button");
 
 for (let i = 0; i < storybutton.length; i += 1) {
   storybutton[i].addEventListener("click", () => {
-    createPopup(
-      projects[i].title,
-      projects[i].imageUrl,
-      projects[i].description,
-      projects[i].technologies
-    );
+    createPopup(projects[i].title, projects[i].imageUrl, projects[i].description, projects[i].technologies, projects[i].liveVersion, projects[i].source);
     popupcontainer.classList.remove("display-none");
     popupcontainer.classList.add("display-flex");
+    // document.body.classList.add("overflow");
   });
 }
 
