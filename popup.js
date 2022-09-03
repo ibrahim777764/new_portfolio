@@ -49,7 +49,7 @@ const projects = [
   {
     title: "pak wheels car show",
     description: "** PakWheels has been hosting auto shows in Karachi since 2015. Every year, we arrange this exciting event and call out all car lovers. An auto show, also known as a motor show or car show, is a public exhibition of current automobile models, debuts, concept cars, or out-of-production classics. It is attended by automotive industry representatives, dealers, auto journalists and car enthusiasts. Most auto shows occur once or twice a year**.",
-    imageUrl: "./images/project_images/pak2.jpeg",
+    imageUrl: "./images/project_images/show.jpeg",
     technologies: ["JavaScript", "Webpack", "CSS", "Html"],
     liveVersion: "https://ibrahim777764.github.io/project-capstone/",
     source: "https://github.com/ibrahim777764/project-capstone",
@@ -58,7 +58,7 @@ const projects = [
   {
     title: "Awesome books",
     description: "Awesome books is a simple website that displays a list of books and allows you to add and remove books from that list. see how to manage data using JavaScript. built with medium-fidelity wireframe for UI..",
-    imageUrl: "./images/project_images/aws.jpeg",
+    imageUrl: "./images/project_images/lib.jpeg",
     technologies: ["MEALDB API", "JavaScript", "Webpack", "CSS", "Html", "ES6 modules"],
     liveVersion: "https://ibrahim777764.github.io/ES6-books-project/",
     source: "https://github.com/ibrahim777764/ES6-books-project",
@@ -76,7 +76,7 @@ const projects = [
   {
     title: "Manage Their Daily Task",
     description: "An application that allow users to manage their daily task. They can add and delete a specific task, and even delete all those which already completed buiilt with JavaScript, webpack and experiment….",
-    imageUrl: "./images/project_images/manage.jpeg",
+    imageUrl: "./images/project_images/daily.jpeg",
     technologies: ["React", "Redux", "Jest", "JavaScript", "CSS", "Html"],
     liveVersion: "https://thriving-caramel-8477aa.netlify.app",
     source: "https://github.com/ABDULALI3468/crypto-capstone",
@@ -85,7 +85,7 @@ const projects = [
   {
     title: "game leaderboard",
     description: "JavaScript project for the Leaderboard list app, built using webpack and ES6 features. The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved using the external Leaderboard API service..",
-    imageUrl: "./images/project_images/lead.jpeg",
+    imageUrl: "./images/project_images/123.jpeg",
     technologies: ["Nodejs", "npm", "JavaScript", "Webpack", "CSS", "Html"],
     liveVersion: "",
     source: "https://ibrahim777764.github.io/leaderboard-es6/",
@@ -99,6 +99,28 @@ const projects = [
     liveVersion: "https://www.google.com/",
     source: "https://github.com/ibrahim777764/Maths-magic",
   },
+  {
+    title: "javascript",
+    description: "In this project I am creating a Single Page App using React regarding basic Calculator and its functionalities.",
+    imageUrl: "./images/html.png",
+    technologies: ["React", "JavaScript", "CSS", "ES6 modules", "JSX",],
+    liveVersion: "https://www.credential.net/bcb2e969-c5ca-4155-92d9-5a8b8e041ca7",
+  },
+  {
+    title: "HTML/CSS",
+    description: "In this project I am creating a Single Page App using React regarding basic Calculator and its functionalities.",
+    imageUrl: "./images/cer1.png",
+    technologies: ["React", "JavaScript", "CSS", "ES6 modules", "JSX",],
+    liveVersion: "https://www.credential.net/c36928d3-3a1d-4ad8-acb4-f5bae3c11e27",
+  },
+  {
+    title: "REACT.JS",
+    description: "In this project I am creating a Single Page App using React regarding basic Calculator and its functionalities.",
+    imageUrl: "./images/cer2.png",
+    technologies: ["React", "JavaScript", "CSS", "ES6 modules", "JSX",],
+    liveVersion: "https://www.credential.net/34cda2e3-6d2b-480b-803b-da8bbf52da7a#gs.al1k07",
+  },
+ 
 ];
 
 for (let i = 0; i < projects.length; i += 1) {
