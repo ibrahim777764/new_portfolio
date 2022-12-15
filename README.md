@@ -5,6 +5,7 @@
 Portfolio: setup and mobile version skeleton
 
 
+
 > Description the project.
 For the first milestone in the process of creating your portfolio website, you will:
 
@@ -22,6 +23,10 @@ build the first 2 sections of the mobile website using the template you chose in
 ![screenshot](./s7.png)
 
 ![screenshot](./s9.png)
+
+
+## live
+![linkt](https://calm-lebkuchen-cad37f.netlify.app/)
 
 ## Built With
 
