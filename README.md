@@ -25,17 +25,14 @@ build the first 2 sections of the mobile website using the template you chose in
 ![screenshot](./s9.png)
 
 
-## live
-![linkt](https://calm-lebkuchen-cad37f.netlify.app/)
+## DEMO live
+![link](https://calm-lebkuchen-cad37f.netlify.app/)
 
 ## Built With
 
 - Html
 - Css
 
-## setup
-
-my website link https://ibrahim777764.github.io/new_portfolio/
 
 
 ## Getting Started
